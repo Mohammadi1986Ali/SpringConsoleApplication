@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean name="factoryMethod" class="com.javalab.tutorial.util.FactoryMethod"/>
+    <bean name="getCustomerService"
+          factory-bean="factoryMethod" factory-method="getService"/>
+    <bean name="generalService" class="com.javalab.tutorial.service.GeneralService">
+        <property name="service" ref="getCustomerService"/>
+    </bean>
+
+</beans>
