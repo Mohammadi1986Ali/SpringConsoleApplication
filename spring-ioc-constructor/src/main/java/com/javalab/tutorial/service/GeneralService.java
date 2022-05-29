@@ -26,4 +26,12 @@ public class GeneralService {
     public void setService(CustomerService service) {
         this.service = service;
     }
+
+    public void beanInitMethod() {
+        LOGGER.info("GeneralService#beanInitMethod");
+    }
+
+    public void beanDestroyMethod() {
+        LOGGER.info("GeneralService#beanDestroyMethod");
+    }
 }

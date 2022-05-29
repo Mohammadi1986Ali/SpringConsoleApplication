@@ -13,4 +13,12 @@ public class CustomerServiceImpl implements CustomerService {
         LOGGER.info("CustomerServiceImpl#welcomeCustomer");
         LOGGER.info("Welcome {}", customerName);
     }
+
+    public void beanInitMethod() {
+        LOGGER.info("CustomerServiceImpl#beanInitMethod");
+    }
+
+    public void beanDestroyMethod() {
+        LOGGER.info("CustomerServiceImpl#beanDestroyMethod");
+    }
 }
