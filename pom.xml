@@ -25,15 +25,13 @@
         <maven-surefire-plugin.version>2.22.0</maven-surefire-plugin.version>
         <maven-failsafe-plugin.version>2.22.0</maven-failsafe-plugin.version>
 
-        <maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
-        <maven-dependency-plugin.version>3.1.1</maven-dependency-plugin.version>
-
         <junit-jupiter.version>5.5.2</junit-jupiter.version>
         <assertj-core.version>3.16.1</assertj-core.version>
         <logback-classic.version>1.2.3</logback-classic.version>
         <spring-context.version>5.3.18</spring-context.version>
 
         <maven-jar-plugin.version>3.2.0</maven-jar-plugin.version>
+        <maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
         <maven-dependency-plugin.version>3.1.2</maven-dependency-plugin.version>
     </properties>
 
