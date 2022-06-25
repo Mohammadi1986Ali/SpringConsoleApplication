@@ -7,7 +7,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Application {
-    private static Logger LOGGER = LoggerFactory.getLogger(Application.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(Application.class);
     private static ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 
     public static void main(String[] args) {

@@ -11,7 +11,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 class ApplicationTest {
 
-    private static Logger LOGGER = LoggerFactory.getLogger(ApplicationTest.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(ApplicationTest.class);
     static ApplicationContext context;
 
     @BeforeAll

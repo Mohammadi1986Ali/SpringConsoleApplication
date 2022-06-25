@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 
 public class GeneralService {
 
-    private static Logger LOGGER = LoggerFactory.getLogger(GeneralService.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(GeneralService.class);
 
     private CustomerService service;
 
